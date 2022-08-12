@@ -15,6 +15,10 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contacts" element={<Contacts />} />
       </Routes>
+      <footer>
+        <hr/>
+        <div>Created by Mansur Mabo</div>
+      </footer>
     </div>
 
   );
