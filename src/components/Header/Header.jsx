@@ -1,13 +1,16 @@
+import { Link } from 'react-router-dom';
+import './Header.scss'
+
 const Header = () => {
-  const links = [
-    
-  ]
 
   return (
     <header>
-      <nav>
-
+      <nav className="nav">
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
       </nav>
     </header>
   ) 
 }
+
+export default Header
